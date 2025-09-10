@@ -56,9 +56,9 @@ doSomethingWith: argumentObject
     self size > 4 ifTrue: [^argumentObject sizeRelatingTo: self].
 ```   
 
-Everything here except the `^` involves sending more messages. Event the `ifTrue:` that you might think is a language control structure is just Smalltalk code.
+Everything here except the `^` involves sending more messages. Even the `ifTrue:` that you might think is a language control structure is just Smalltalk code.
 
-We start by sending `size` to `self`. `self` is the object currently running the code - so in this case it is the myObject we started with. `size` is a very common message that we might anticipate tells us something about how big an object is; you could look it up with the Smalltalk tools very simply. The result we get is then sent the message `>` with the plain old integer 4 (which is an object too; no strange primitive types to pollute the system here) and nobody should be surprised the `>` is a comparison that answers true or false. That boolean (which is actually a Boolean object in Smalltalk) is sent the message `ifTrue:` with the block of code between the `[]` as its argument; obviously a true boolean might be expected to run that block of code and a false to ignore it. 
+We start by sending `size` to `self`. `self` is the object currently running the code - so in this case it is the myObject we started with. `size` is a very common message that we might anticipate tells us something about how big an object is; you could look it up with the Smalltalk tools very simply. The result we get is then sent the message `>` with the integer 4, which is an object too; no primitive types here. The `>` is a comparison that answers true or false. That boolean (which is actually a Boolean object in Smalltalk) is sent the message `ifTrue:` with the block of code between the `[]` as its argument; a true boolean is expected to run that block of code and a false to ignore it.
 
 If the block is run then we do some more message sending to the argument object and noting the `^` we return the answer back to our starting point and it gets assigned to `result`. If the block is ignored we seem to run out of code and so `self` is returned and assigned to `result`.
 
@@ -1030,7 +1030,6 @@ Most Smalltalks are either free as in OSS or have a free downloadable version wi
 * [VisualWorks Smalltalk](http://www.cincomsmalltalk.com/)
 
 ### Online Smalltalk books and articles
-* [Smalltalk Programming Resources](http://www.whoishostingthis.com/resources/smalltalk/)
 * [Smalltalk Cheatsheet](http://www.angelfire.com/tx4/cus/notes/smalltalk.html)
 * [Smalltalk-72 Manual](http://www.bitsavers.org/pdf/xerox/parc/techReports/Smalltalk-72_Instruction_Manual_Mar76.pdf)
 * [GNU Smalltalk User's Guide](https://www.gnu.org/software/smalltalk/manual/html_node/Tutorial.html)

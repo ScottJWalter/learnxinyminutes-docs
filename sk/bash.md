@@ -11,7 +11,6 @@ contributors:
     - ["Etan Reisner", "https://github.com/deryni"]
 translators:
     - ["Juraj Kostolanský", "http://www.kostolansky.sk"]
-filename: LearnBash-sk.sh
 ---
 
 Bash je pomenovanie pre unix shell (príkazový interpreter), ktorý bol
@@ -19,8 +18,6 @@ tiež distribuovaný ako shell pre GNU operačné systémy a ako predvolený
 shell pre Linux a macOS.
 Takmer všetky príklady uvedené nižšie môžu byť súčasťou shell skriptu alebo
 vykonané priamo v shelli.
-
-[Viac informácií tu.](http://www.gnu.org/software/bash/manual/bashref.html)
 
 ```bash
 #!/bin/bash
@@ -281,3 +278,5 @@ info bash 'Bash Features'
 info bash 6
 info --apropos bash
 ```
+
+[Viac informácií tu.](https://www.gnu.org/software/bash/manual/bashref.html)

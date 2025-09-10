@@ -5,7 +5,6 @@ contributors:
     - ["Ryan Plant", "https://github.com/ryanplant-au"]
 translators:
     - ["Adrian Carrascal", "https://github.com/acarrascalgarcia"]
-filename: learnelixir-es.ex
 ---
 
 Elixir es un lenguaje funcional moderno construido sobre la máquina virtual de Erlang.
@@ -158,13 +157,6 @@ nil && 20  #=> nil
 
 # Expresión `if`
 if false do
-  "This will never be seen"
-else
-  "This will"
-end
-
-# También está la expresión `unless`
-unless true do
   "This will never be seen"
 else
   "This will"

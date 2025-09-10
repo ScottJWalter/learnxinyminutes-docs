@@ -10,7 +10,6 @@ contributors:
     - ["Gregrory Kielian", "https://github.com/gskielian"]
 translators:
     - ["Baptiste Fontaine", "http://bfontaine.net"]
-filename: LearnBash-fr.sh
 ---
 
 Bash est le nom du shell UNIX, qui était aussi distribué avec le système
@@ -18,8 +17,6 @@ d’exploitation GNU et est le shell par défaut sur Linux et macOS.
 
 Presque tous les exemples ci-dessous peuvent être écrits dans un script shell
 ou exécutés directement dans le terminal.
-
-[Plus d’informations ici.](http://www.gnu.org/software/bash/manual/bashref.html)
 
 ```bash
 #!/bin/bash
@@ -43,8 +40,8 @@ VARIABLE = "Du texte" # => renvoie une erreur : "Variable: command not found"
 # afficher une erreur parce qu’elle est introuvable.
 
 # Ni comme ça :
-VARIABLE= 'Some string' # => renvoie une erreur : "Du texte: command not found"
-# Bash va penser que 'Di texte' est une commande qu’il doit exécuter et va
+VARIABLE= 'Du texte' # => renvoie une erreur : "Du texte: command not found"
+# Bash va penser que 'Du texte' est une commande qu’il doit exécuter et va
 # afficher une erreur parce qu’elle est introuvable. (Dans ce cas, la partie 
 # 'VARIABLE=' est considérée comme une affectation de variable valable uniquement
 # pour la portée de la commande 'Du texte').
@@ -315,3 +312,5 @@ grep -c "^foo.*bar$" fichier.txt
 # l’expression rationnelle, utilisez fgrep (ou grep -F)
 fgrep "^foo.*bar$" fichier.txt
 ```
+
+[Plus d’informations ici.](https://www.gnu.org/software/bash/manual/bashref.html)

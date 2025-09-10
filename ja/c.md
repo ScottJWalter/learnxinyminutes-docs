@@ -1,5 +1,4 @@
 ---
-filename: learnc-jp.c
 contributors:
   - ["Adam Bard", "http://adambard.com/"]
   - ["Árpád Goretity", "http://twitter.com/H2CO3_iOS"]
@@ -810,7 +809,7 @@ typedef void (*my_fnp_type)(char *);
 // 演算子                                    |  優先順位  //
 //------------------------------------------------------//
 //  () [] -> .                              |  左から右  //
-//  ! ~ ++ -- + = *(型) sizeof               |  右から左  //
+//  ! ~ ++ -- + - *(型) sizeof               |  右から左  //
 //  * %                                     |  左から右  //
 //  + -                                     |  左から右  //
 //  << >>                                   |  左から右  //

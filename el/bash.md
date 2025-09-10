@@ -1,7 +1,6 @@
 ---
 contributors:
     - ["Dimitri Kokkonis", "https://github.com/kokkonisd"]
-filename: LearnBash-gr.sh
 ---
 
 Η λέξη «bash» είναι ένα από τα ονόματα του unix shell (τερματικός), το οποίο
@@ -9,8 +8,6 @@ filename: LearnBash-gr.sh
 Σχεδόν όλα τα παραδείγματα που ακολουθούν μπορούν να αποτελέσουν μέρος ενός
 προγράμματος τερματικού (shell script) ή να εκτελεσθούν απευθείας από τον
 τερματικό.
-
-[Διαβάστε περισσότερα εδώ.](http://www.gnu.org/software/bash/manual/bashref.html)
 
 ```bash
 #!/usr/bin/env bash
@@ -196,7 +193,7 @@ then
 fi
 # Να σημειωθεί πως ο τελεστής `=~` δουλεύει μόνο με διπλές αγκύλες [[ ]],
 # που είναι ωστόσο διαφορετικές από τις μονές [ ].
-# Δείτε το http://www.gnu.org/software/bash/manual/bashref.html#Conditional-Constructs
+# Δείτε το https://www.gnu.org/software/bash/manual/bashref.html#Conditional-Constructs
 # για περισσότερες πληροφορίες σχετικά με αυτό.
 
 # Επαναπροσδιορισμός της εντολής `ping` ως alias (ψευδώνυμο) για την αποστολή 5
@@ -523,3 +520,5 @@ info bash 'Bash Features'
 info bash 6
 info --apropos bash
 ```
+
+[Διαβάστε περισσότερα εδώ.](https://www.gnu.org/software/bash/manual/bashref.html)

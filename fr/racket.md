@@ -1,5 +1,4 @@
 ---
-filename: learnracket-fr.rkt
 contributors:
   - ["th3rac25", "https://github.com/voila"]
   - ["Eli Barzilay", "https://github.com/elibarzilay"]
@@ -10,12 +9,6 @@ translators:
 
 Racket est un langage de programmation généraliste, multi-paradigme,
 descendant de Lisp/Scheme.
-
-Les retours et commentaires sont appréciés ! Vous pouvez joindre l'auteur
-original ici :
-[@th3rac25](http://twitter.com/th3rac25) ou là : th3rac25 [at] [google's email
-service]. Vous pouvez joindre le traducteur de ce document ici :
-[@lkdjiin](http://twitter.com/lkdjiin).
 
 ```racket
 #lang racket ; défini le dialecte à utiliser.

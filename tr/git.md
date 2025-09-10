@@ -8,7 +8,6 @@ contributors:
     - ["Jason Stathopulos", "http://github.com/SpiritBreaker226"]
     - ["Milo Gilad", "http://github.com/Myl0g"]
     - ["Adem Budak", "https://github.com/p1v0t"]
-filename: LearnGit-tr.txt
 ---
 
 Git dağınık versiyon kontrol ve kaynak kod yönetim sistemidir.
@@ -172,7 +171,7 @@ $ git add HelloWorld.java
 # add a file in a nested dir
 $ git add /path/to/file/HelloWorld.c
 
-# Regular Expression support!
+# Shell glob patterns make it easy to specify multiple files:
 $ git add ./*.java
 
 # You can also add everything in your working directory to the staging area.

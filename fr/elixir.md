@@ -6,7 +6,6 @@ contributors:
     - ["Ev Bogdanov", "https://github.com/evbogdanov"]
 translators:
     - ["Timothé Pardieu", "https://github.com/timprd"]
-filename: learnelixir-fr.ex
 ---
 
 Elixir est un langage de programmation fonctionnel moderne reposant sur la machine virtuelle BEAM, qui héberge aussi Erlang.
@@ -169,14 +168,6 @@ nil && 20  #=> nil
 
 # Condition avec `if` (si)
 if false do
-  "Cela ne sera pas vu"
-else
-  "Cela le sera"
-end
-
-# Condition avec `unless` (sauf).
-# Il correspond à la négation d'un `if` (si)
-unless true do
   "Cela ne sera pas vu"
 else
   "Cela le sera"

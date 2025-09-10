@@ -3,7 +3,6 @@ contributors:
     - ["Joao Marques", "http://github.com/mrshankly"]
 translators:
     - ["lidashuang", "http://github.com/lidashuang"]
-filename: learnelixir-cn.ex
 ---
 
 Elixir 是一门构建在Erlang VM 之上的函数式编程语言。Elixir 完全兼容 Erlang, 
@@ -144,13 +143,6 @@ nil && 20  #=> nil
 
 # `if` 表达式
 if false do
-  "This will never be seen"
-else
-  "This will"
-end
-
-# 还有 `unless`
-unless true do
   "This will never be seen"
 else
   "This will"

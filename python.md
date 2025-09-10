@@ -404,6 +404,22 @@ elif some_var < 10:    # This elif clause is optional.
 else:                  # This is optional too.
     print("some_var is indeed 10.")
 
+# Match/Case — Introduced in Python 3.10
+# It compares a value against multiple patterns and executes the matching case block.
+
+command = "run"
+
+match command:
+    case "run":
+        print("The robot started to run 🏃‍♂️")
+    case "speak" | "say_hi":  # multiple options (OR pattern)
+        print("The robot said hi 🗣️")
+    case code if command.isdigit():  # conditional
+        print(f"The robot execute code: {code}")
+    case _:  # _ is a wildcard that never fails (like default/else)
+        print("Invalid command ❌")
+
+# Output: "the robot started to run 🏃‍♂️"
 
 """
 For loops iterate over lists
@@ -1045,6 +1061,7 @@ def log_function(func):
 
 @log_function               # equivalent:
 def my_function(x,y):       # def my_function(x,y):
+    """Adds two numbers together."""
     return x+y              #   return x+y
                             # my_function = log_function(my_function)
 # The decorator @log_function tells us as we begin reading the function definition
@@ -1060,7 +1077,7 @@ my_function(1,2)  # => "Entering function my_function"
 # What happens if we try to get some information about my_function?
 
 print(my_function.__name__)  # => 'wrapper'
-print(my_function.__code__.co_argcount)  # => 0. The argcount is 0 because both arguments in wrapper()'s signature are optional.
+print(my_function.__doc__)  # => None (wrapper function has no docstring)
 
 # Because our decorator is equivalent to my_function = log_function(my_function)
 # we've replaced information about my_function with information from wrapper
@@ -1081,6 +1098,7 @@ def log_function(func):
 
 @log_function
 def my_function(x,y):
+    """Adds two numbers together."""
     return x+y
 
 my_function(1,2)  # => "Entering function my_function"
@@ -1088,7 +1106,7 @@ my_function(1,2)  # => "Entering function my_function"
                   # => "Exiting function my_function"
 
 print(my_function.__name__)  # => 'my_function'
-print(my_function.__code__.co_argcount)  # => 2
+print(my_function.__doc__)  # => 'Adds two numbers together.'
 ```
 
 ### Free Online

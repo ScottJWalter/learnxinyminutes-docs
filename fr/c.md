@@ -1,5 +1,4 @@
 ---
-filename: learnc-fr.c
 contributors:
     - ["Adam Bard", "http://adambard.com/"]
     - ["Árpád Goretity", "http://twitter.com/H2CO3_iOS"]
@@ -740,7 +739,7 @@ typedef void (*my_fnp_type)(char *);
 //        Operateurs                 | Associativité      //
 //--------------------------------------------------------//
 // () [] -> .                        | de gauche à droite //
-// ! ~ ++ -- + = *(type)sizeof       | de droite à gauche //
+// ! ~ ++ -- + - *(type)sizeof       | de droite à gauche //
 // * / %                             | de gauche à droite //
 // + -                               | de gauche à droite //
 // << >>                             | de gauche à droite //

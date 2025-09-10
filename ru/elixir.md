@@ -5,7 +5,6 @@ contributors:
     - ["Ryan Plant", "https://github.com/ryanplant-au"]
 translators:
     - ["Ev Bogdanov", "https://github.com/evbogdanov"]
-filename: learnelixir-ru.ex
 ---
 
 Elixir — современный функциональный язык программирования, который работает на
@@ -166,13 +165,6 @@ nil && 20  #=> nil
 
 # Условный оператор `if`
 if false do
-  "Вы этого никогда не увидите"
-else
-  "Вы увидите это"
-end
-
-# Противоположный ему условный оператор `unless`
-unless true do
   "Вы этого никогда не увидите"
 else
   "Вы увидите это"

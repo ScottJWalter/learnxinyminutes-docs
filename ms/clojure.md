@@ -1,5 +1,4 @@
 ---
-filename: learnclojure-ms.clj
 contributors:
     - ["Adam Bard", "http://adambard.com/"]
 translators:
@@ -284,9 +283,9 @@ keymap ; => {:a 1, :b 2, :c 3}
 ; yang melibatkan collection:
 (->>
    (range 10)
-   (map inc)     ;=> (map inc (range 10)
-   (filter odd?) ;=> (filter odd? (map inc (range 10))
-   (into []))    ;=> (into [] (filter odd? (map inc (range 10)))
+   (map inc)     ;=> (map inc (range 10))
+   (filter odd?) ;=> (filter odd? (map inc (range 10)))
+   (into []))    ;=> (into [] (filter odd? (map inc (range 10))))
                  ; Result: [1 3 5 7 9]
 
 ; Jika anda mahu lebih fleksibel untuk meletakkan hasil perkiraan,

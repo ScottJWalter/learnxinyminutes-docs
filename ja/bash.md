@@ -6,14 +6,11 @@ contributors:
     - ["Denis Arh", "https://github.com/darh"]
 translators:
     - ["akirahirose", "https://twitter.com/akirahirose"]
-filename: LearnBash-jp.sh
 ---
 
 Bash はunixシェルの1つです。GNUオペレーションシステムのシェルとして配布されています。
 LinuxやMac OS Xの、デフォルトシェルにもなっています。
 以下にある例は、ほぼ全部シェルスクリプトの一部として使えます。また、一部はそのままシェルから実行できます。
-
-[ちゃんとした説明は、こちらをどうぞ](http://www.gnu.org/software/bash/manual/bashref.html)
 
 ```bash
 #!/bin/bash
@@ -166,3 +163,5 @@ uniq -d file.txt
 # 1行ごとに、','が最初に出てくる前の部分を表示します
 cut -d ',' -f 1 file.txt
 ```
+
+[ちゃんとした説明は、こちらをどうぞ](https://www.gnu.org/software/bash/manual/bashref.html)

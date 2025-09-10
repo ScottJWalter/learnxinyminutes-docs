@@ -5,7 +5,6 @@ contributors:
     - ["Ryan Plant", "https://github.com/ryanplant-au"]
 translators:
   - ["Peter Szatmary", "https://github.com/peterszatmary"]
-filename: learnelixir-sk.ex
 ---
 
 Elixir je moderný funkcionálny jazyk vytvorený nad Erlang VM (virtuálnym
@@ -166,13 +165,6 @@ nil && 20  #=> nil
 
 # `if` výraz
 if false do
-  "Toto nebude nikdy videné"
-else
-  "Toto bude"
-end
-
-# Existuje aj `unless`
-unless true do
   "Toto nebude nikdy videné"
 else
   "Toto bude"

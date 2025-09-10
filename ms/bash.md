@@ -9,14 +9,11 @@ contributors:
     - ["Rahil Momin", "https://github.com/iamrahil"]
     - ["Gregrory Kielian", "https://github.com/gskielian"]
     - ["Etan Reisner", "https://github.com/deryni"]
-filename: LearnBash-ms.sh
 translators:
     - ["hack1m", "https://github.com/hack1m"]
 ---
 
 Bash adalah nama daripada unix shell, yang mana telah diagihkan sebagai shell untuk sistem operasi GNU dan sebagai shell lalai pada Linux dan macOS. Hampir semua contoh di bawah boleh menjadi sebahagian daripada skrip shell atau dijalankan terus dalam shell.
-
-[Baca lebih lanjut di sini.](http://www.gnu.org/software/bash/manual/bashref.html)
 
 ```bash
 #!/bin/bash
@@ -279,3 +276,5 @@ info bash 'Bash Features'
 info bash 6
 info --apropos bash
 ```
+
+[Baca lebih lanjut di sini.](https://www.gnu.org/software/bash/manual/bashref.html)

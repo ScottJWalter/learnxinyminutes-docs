@@ -28,8 +28,6 @@ for the GNU operating system and as the default shell on most Linux distros.
 Nearly all examples below can be a part of a shell script
 or executed directly in the shell.
 
-[Read more here.](https://www.gnu.org/software/bash/manual/bashref.html)
-
 ```bash
 #!/usr/bin/env bash
 # First line of the script is the shebang which tells the system how to execute
@@ -175,6 +173,12 @@ fi
 if [[ "$name" == "Daniya" ]] || [[ "$name" == "Zach" ]]; then
     echo "This will run if $name is Daniya OR Zach."
 fi
+
+# To check if a string is empty or not set use -z and -n to check if it is NOT empty
+if [[ -z "$name" ]]; then
+    echo "Name is unset"
+fi
+
 # There are other comparison operators for numbers listed below:
 # -ne - not equal
 # -lt - less than
@@ -520,3 +524,5 @@ info bash 'Bash Features'
 info bash 6
 info --apropos bash
 ```
+
+For more, see the [Bash documentation](https://www.gnu.org/software/bash/manual/bashref.html).

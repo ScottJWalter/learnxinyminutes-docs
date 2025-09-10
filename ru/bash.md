@@ -18,7 +18,6 @@ contributors:
 translators:
     - ["Andrey Samsonov", "https://github.com/kryzhovnik"]
     - ["Andre Polykanine", "https://github.com/Menelion"]
-filename: LearnBash-ru.sh
 ---
 
 Bash — это командная оболочка unix, которая распространялась как оболочка
@@ -26,8 +25,6 @@ Bash — это командная оболочка unix, которая рас�
 для Linux и macOS.
 Почти все нижеприведённые примеры могут быть частью shell-скриптов
 или исполнены напрямую в shell.
-
-[Подробнее.](http://www.gnu.org/software/bash/manual/bashref.html)
 
 ```bash
 #!/bin/bash
@@ -198,7 +195,7 @@ fi
 # Обратите внимание, что =~ работает только внутри
 # двойных квадратных скобок [[ ]],
 # которые несколько отличаются от одинарных скобок [ ].
-# Для более подробной информации см. http://www.gnu.org/software/bash/manual/bashref.html#Conditional-Constructs.
+# Для более подробной информации см. https://www.gnu.org/software/bash/manual/bashref.html#Conditional-Constructs.
 
 # Переопределить команду «ping» как псевдоним для отправки только пяти пакетов
 alias ping='ping -c 5'
@@ -478,3 +475,5 @@ info bash 'Bash Features'
 info bash 6
 info --apropos bash
 ```
+
+[Подробнее](https://www.gnu.org/software/bash/manual/bashref.html).

@@ -1,5 +1,4 @@
 ---
-filename: learnc-pt.c
 contributors:
     - ["Adam Bard", "http://adambard.com/"]
     - ["Árpád Goretity", "http://twitter.com/H2CO3_iOS"]
@@ -614,7 +613,7 @@ typedef void (*minha_função_type)(char *);
 //        Operadores                       | Associatividade //
 //-----------------------------------------------------------//
 // () [] -> .                        | esquerda para direita //
-// ! ~ ++ -- + = *(type)sizeof       | direita para esqureda //
+// ! ~ ++ -- + - *(type)sizeof       | direita para esqureda //
 // * / %                             | esquerda para direita //
 // + -                               | esquerda para direita //
 // << >>                             | esquerda para direita //

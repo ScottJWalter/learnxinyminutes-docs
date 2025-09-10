@@ -3,7 +3,6 @@ contributors:
     - ["Bastien Guerry", "http://bzg.fr"]
 translators:
     - ["Lucas Tadeu Teixeira", "http://ltt.me"]
-filename: learn-emacs-lisp-pt.el
 ---
 
 ```scheme
@@ -345,13 +344,4 @@ filename: learn-emacs-lisp-pt.el
 ;;
 ;; Para ler uma introdução online ao Emacs Lisp:
 ;; https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html
-
-;; Agradecimentos a estas pessoas por seu feedback e sugestões:
-;; - Wes Hardaker
-;; - notbob
-;; - Kevin Montuori
-;; - Arne Babenhauserheide
-;; - Alan Schmitt
-;; - LinXitoW
-;; - Aaron Meurer
 ```

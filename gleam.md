@@ -24,7 +24,7 @@ code in browser or any other JS-enabled runtime. When using this feature,
 TypeScript definitions get created, so you can interact with your Gleam code
 confidently, even from the outside.
 
-```
+```gleam
 //// This comment with four slashes is a module-level.
 //// This kind of comments are used to describe the whole module.
 
@@ -883,4 +883,4 @@ The official docs have cheatsheets for people familiar with:
 * [Erlang](https://gleam.run/cheatsheets/gleam-for-erlang-users)
 * [PHP](https://gleam.run/cheatsheets/gleam-for-php-users)
 * [Python](https://gleam.run/cheatsheets/gleam-for-python-users)
-* [Rust](https://gleam.run/cheatsheets/gleam-for-python-users)
+* [Rust](https://gleam.run/cheatsheets/gleam-for-rust-users)

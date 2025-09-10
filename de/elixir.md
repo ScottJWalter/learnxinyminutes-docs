@@ -3,7 +3,6 @@ contributors:
     - ["Joao Marques", "http://github.com/mrshankly"]
 translators:
     - ["Gregor Große-Bölting", "http://www.ideen-und-soehne.de"]
-filename: learnelixir-de.ex
 ---
 
 Elixir ist eine moderne, funktionale Sprache für die Erlang VM. Sie ist voll 
@@ -156,13 +155,6 @@ nil && 20  #=> nil
 
 # Es gibt die `if`-Verzweigung
 if false do
-  "Dies wird nie jemand sehen..."
-else
-  "...aber dies!"
-end
-
-# ...und ebenso `unless`
-unless true do
   "Dies wird nie jemand sehen..."
 else
   "...aber dies!"

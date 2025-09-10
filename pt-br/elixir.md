@@ -4,7 +4,6 @@ contributors:
     - ["Dzianis Dashkevich", "https://github.com/dskecse"]
 translators:
     - ["Rodrigo Muniz", "http://github.com/muniz95"]
-filename: learnelixir-pt.ex
 ---
 
 Elixir é uma linguagem funcional moderna construída no topo da Erlang VM.
@@ -152,13 +151,6 @@ nil && 20  #=> nil
 
 # expressão `if` 
 if false do
-  "Isso nunca será visto"
-else
-  "Isso será"
-end
-
-# Também há `unless`
-unless true do
   "Isso nunca será visto"
 else
   "Isso será"
