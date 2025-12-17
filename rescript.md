@@ -15,7 +15,7 @@ ReScript is a robustly typed language that compiles to efficient and human-reada
 /*----------------------------------------------
  * Variable and function declaration
  *----------------------------------------------
- * Variables and functions use the let keyword and end with a semi-colon
+ * Variables and functions use the let keyword
  * `let` bindings are immutable
  */
 
@@ -292,7 +292,7 @@ moveTo(~x=7.0, ~y=3.5)
 let getMessage = (~message as msg) => "==" ++ msg ++ "=="
 
 getMessage(~message="You have a message!")
-/* - The caller specifies ~message but internally the function can make use */
+/* - The caller specifies ~message but internally the function can make use of msg */
 
 /* The following function also has explicit types declared */
 let showDialog = (~message: string): unit => {
